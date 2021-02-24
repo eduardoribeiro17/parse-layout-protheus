@@ -1,3 +1,9 @@
+#data-file
+data-file/
+
+#exported-file
+export/
+
 # Logs
 logs
 *.log
