@@ -33,7 +33,7 @@ module.exports = (async function parse() {
     cc_debito = fill(cc_debito, 10)
     cc_credito = fill(cc_credito, 10)
 
-    const line = `${linha} ${conta_debito} ${conta_credito} ${valor} ${historico} ${cc_debito} ${cc_credito}\n`
+    const line = `${linha} ${conta_debito} ${conta_credito} ${valor} ${historico} ${cc_debito} ${cc_credito}\r\n`
 
     console.warn(line, line.length)
 
